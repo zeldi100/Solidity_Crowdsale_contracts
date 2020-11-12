@@ -93,6 +93,9 @@ The address that bought the tokens is: 0x81080EB0235f9B0CB20ECf562e9b674d323E64D
 6. Screenshots of successful token transfer on EtherScan
 ![Deploy_contracts](./Images/Kovan_06_EtherscanResults.png)
 
+7. Screenshot of MyCrypto where token was added. The token balance was too small to reflect in the balance.
+![MyCrypto_balance](./Images/Kovan_07_MyCryptoToken.png)
+
 ## 4. File Location:
 
 ### Starter code:
@@ -103,6 +106,8 @@ The address that bought the tokens is: 0x81080EB0235f9B0CB20ECf562e9b674d323E64D
 2. Crowdsale code that manages the entire process, allowing users to send ETH and get back PUP (PupperCoin). This contract will mint the tokens automatically and distribute them to buyers in one transaction. It will need to inherit Crowdsale, CappedCrowdsale, TimedCrowdsale, RefundableCrowdsale, and MintedCrowdsale: </br>
 
    [Crowdsale_code](./Starter_code/Crowdsale.sol)
+
+### All images are in the Images folder.
 
 
 
