@@ -1,3 +1,6 @@
+// This contract makes use of the standard ERC20Mintable and ERC20Detailed contracts, 
+// It creates an ERC20 token that will be minted through a Crowdsale contract that you can leverage from the OpenZeppelin Solidity library.
+
 pragma solidity ^0.5.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";

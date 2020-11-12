@@ -1,3 +1,9 @@
+// This crowdsale contract will manage the entire process, 
+// allowing users to send ETH and get back PUP (PupperCoin).
+// This contract will mint the tokens automatically and distribute them to buyers in one transaction.
+// It will need to inherit Crowdsale, CappedCrowdsale, 
+// TimedCrowdsale, RefundableCrowdsale, and MintedCrowdsale
+
 pragma solidity ^0.5.0;
 
 import "./PupperCoin.sol";
